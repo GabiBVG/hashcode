@@ -37,8 +37,6 @@ namespace hashcode
                 dataInput.Add(new_img);
 
             }
-
-            //     foreach (File in files;)
         }
     }
 }
