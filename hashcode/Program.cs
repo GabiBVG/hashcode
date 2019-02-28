@@ -10,18 +10,14 @@ namespace hashcode
 {
     class Program
     {
-        class dataset {
-
-        }
         static List<Images> dataInput = new List<Images>();
         static void Main(string[] args)
         {
-
-            readDAtaset();
+            readDataset();
             var plm = dataInput[5];
         }
 
-        static void readDAtaset()
+        static void readDataset()
         {
             string nume = Directory.GetCurrentDirectory();
             string path = @"..\..\Data\b_lovely_landscapes.txt";
